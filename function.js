@@ -16,31 +16,49 @@ fetch('translate.json')
     }
 
     const switchToEnglish = document.getElementById('English');
-    const switchToRussian = document.getElementById('Russian');
+const switchToRussian = document.getElementById('Russian');
 
-    switchToEnglish.addEventListener('click', () => {
-      getTranslate('en');
-    });
+let currentLanguage = localStorage.getItem('currentLanguage') || 'en';
 
-    switchToRussian.addEventListener('click', () => {
-      getTranslate('ru');
-    });
-    getTranslate('en');
+// Устанавливаем сохраненный язык при загрузке страницы
+getTranslate(currentLanguage);
+
+switchToEnglish.addEventListener('click', () => {
+  currentLanguage = 'en';
+  localStorage.setItem('currentLanguage', currentLanguage);
+  getTranslate(currentLanguage);
+});
+
+switchToRussian.addEventListener('click', () => {
+  currentLanguage = 'ru';
+  localStorage.setItem('currentLanguage', currentLanguage);
+  getTranslate(currentLanguage);
+});
+
   })
   .catch(error => console.error('Ошибка при загрузке json файла:', error));
 
   const themeToggleBtn = document.getElementById('theme-toggle');
   const elementsToToggle = document.querySelectorAll('.content');
-  let isDarkTheme = false;
 
-  themeToggleBtn.addEventListener('click', () => {
+  let isDarkTheme = localStorage.getItem('isDarkTheme') === 'true';
+
+// Проверяем, была ли сохранена предыдущая настройка темы
+if (isDarkTheme) {
+  document.body.classList.add('dark-theme');
+}
+
+themeToggleBtn.addEventListener('click', () => {
     isDarkTheme = !isDarkTheme;
+    localStorage.setItem('isDarkTheme', isDarkTheme.toString());
+  
     if (isDarkTheme) {
-        document.body.classList.add('dark-theme');
+      document.body.classList.add('dark-theme');
     } else {
-        document.body.classList.remove('dark-theme');
+      document.body.classList.remove('dark-theme');
     }
-});
+  });
+
 const audio = document.querySelector('audio');
 let isPlaying = false;
 

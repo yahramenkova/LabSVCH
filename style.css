@@ -10,6 +10,10 @@
 .dark-theme .linkhome {
     color: #A7B2CE;
 }
+.dark-theme .containerServices1,
+.dark-theme .containerServices2{
+    background-color: #1D222A;
+ }
 .dark-theme header a{
     color: #FFF;
     }
@@ -244,7 +248,7 @@ header h2 {
 .phone {
     width: 24px;
     height: 25px;
-    margin-top: 0; 
+    margin-top: 0;
 }
 .number {
     color: #141414;
