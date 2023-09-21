@@ -4,6 +4,20 @@ body {
   margin: 0;
   padding: 0;
 }
+.button-tr {
+    font-size: 16px;
+    padding: 8px 7px;
+    background-color: #5C8692;;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1000;
+    top: 160px;
+    left: 120px;
+    margin: 2px;
+}
 header {
 display: flex;
 width: 1440px;
