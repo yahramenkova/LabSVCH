@@ -52,3 +52,19 @@ function toggleAudio() {
   }
   isPlaying = !isPlaying;
 }
+const image = document.getElementById('img1');
+const button = document.getElementById('button2');
+
+const imagePaths = [
+  'pictures/img1.png',
+  'pictures/block3-2.png',
+  'pictures/img4.png',
+];
+
+let currentImageIndex = 0; // Индекс текущего изображения
+
+button.addEventListener('click', () => {
+
+  currentImageIndex = (currentImageIndex + 1) % imagePaths.length;
+  image.src = imagePaths[currentImageIndex];
+})
