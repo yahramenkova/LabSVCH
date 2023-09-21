@@ -168,7 +168,20 @@ background: #55627C;
     left: 608px; /* Отступ слева */
     bottom: 72px; /* Отступ снизу */
     }
-
+    .button-ms{
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        z-index: 1000;
+        top: 250px;
+        right: 285px;
+        margin: 2px;
+        width: 130px;
+        height: 80px;
+        background-color: #cad7db;
+    }
+    
 body {
   margin: 0;
   padding: 0;
