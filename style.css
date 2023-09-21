@@ -1,6 +1,173 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display&display=swap');
-
+.dark-theme {
+    background-color: #1D222A;
+    color: #FFF;
+}
+.dark-theme .button-tr{
+ background: #78849C;
+}
+.dark-theme .linkhome {
+    color: #A7B2CE;
+}
+.dark-theme header a{
+    color: #FFF;
+    }
+.dark-theme header h2 {
+    color: #FFF;
+     }
+.dark-theme .rectangle1,
+.dark-theme .rectangle2,
+.dark-theme .rectangle3,
+.dark-theme .rectangle4,
+.dark-theme .rectangle5 {
+    background-color: #0B1425;
+}
+.dark-theme .block1 p{
+    color: #A7B2CE;
+}
+.dark-theme .block1 h1{
+    color: #FFF;
+}
+.dark-theme .block1 h2{
+    color: #EBF3F5;
+}
+.dark-theme .button1,
+.dark-theme .button2{
+    border: 2px solid #78849C;
+   background: #78849C;
+   }
+.dark-theme .block2 h1{
+    color: #FFF;
+}
+.dark-theme .block2 h2{
+    color:#C0C7D8;
+}
+.dark-theme .button5{
+    border: 2px solid #A7B2CE;
+    background-color: #0B1425;
+}
+.dark-theme .button5{
+    border: 2px solid #A7B2CE;
+    background-color: #1D222A;
+}
+.dark-theme .button5 span{
+    color: #A7B2CE;
+}
+.dark-theme .block3 h1{
+    color: #FFF;
+}
+.dark-theme .block3 h2,
+.dark-theme .block3 p{
+    color: #A7B2CE;
+}
+.dark-theme .containerTextServices h1{
+    color: #FFF;
+}
+.dark-theme .containerTextServices h2{
+color: #78849C;
+}
+.dark-theme .testimonialsblock h1{
+    color: #FFF;
+}
+.dark-theme .testimonialsblock p{
+    color: #A7B2CE;
+}
+.dark-theme .commentsRectangle,
+.dark-theme .commentsRectangle2{
+    background: #212939;
+}
+.dark-theme .commentsRectangle1,
+.dark-theme .commentsRectangle3{
+    background: #78849C;
+}
+.dark-theme .commentsRectangle h2,
+.dark-theme .commentsRectangle2 h2{
+color: #FFF;
+}
+.dark-theme .textBlockBenefits h1,
+.dark-theme .blockBenefits h1{
+    color: #FFF;
+}
+.dark-theme .textBlockBenefits h2,
+.dark-theme .blockBenefits p{
+    color: #A7B2CE;
+}
+.dark-theme .Discount{
+    background-color: #0B1425; 
+}
+.dark-theme .blockreg{
+    background: #55627C;
+    box-shadow: 1px 0px 18px 0px rgba(0, 0, 0, 0.20);
+}
+.dark-theme .DiscountRec h2,
+.dark-theme .DiscountRec h3,
+.dark-theme .DiscountRec h4{
+    color: #FFF;
+}
+.dark-theme .blockDiscounttext h2{
+    color: #78849C;
+}
+.dark-theme .blockDiscounttext h1{
+    color: #FFF;
+}
+.dark-theme .blockDiscounttext p{
+    color: #78849C;
+}
+.dark-theme .button7{
+    border: 2px solid #A7B2CE;
+background: #55627C;
+}
+.dark-theme .button8{
+    border: 2px solid #A7B2CE;
+background: #55627C;
+}
+.dark-theme .button9{
+    border: 2px solid #A7B2CE;
+    background: #A7B2CE;
+}
+.dark-theme .DiscountRec{
+    background: #55627C;
+}
+.dark-theme .textBlockBlog h2{
+    color: #A7B2CE;
+}
+.dark-theme .textBlockBlog h1{
+    color: #FFF;
+}
+.dark-theme .blockrec{
+    background: #0B1425;
+}
+.dark-theme .buttonBlog{
+    border: 2px solid #A7B2CE;
+    background-color: #1D222A;
+}
+.dark-theme .buttonBlog span{
+    color: #FFF;
+}
+.dark-theme .blockBlog h2{
+    color: #A7B2CE;
+}
+.dark-theme .blockBlog h1{
+    color: #FFF;
+}
+.dark-theme .blockBlog p{
+    color: #A7B2CE;
+}
+.dark-theme .minrec{
+    border: 2px solid #FFF;
+}
+.dark-theme .border{
+    width: 573px;
+    height: 624px;
+    flex-shrink: 0;
+    position: absolute; 
+    border: 10px solid #78849C;
+    top: 81px; /* Отступ сверху */
+    right: 10px; /* Отступ справа */
+    left: 608px; /* Отступ слева */
+    bottom: 72px; /* Отступ снизу */
+    }
 
 body {
   margin: 0;
