@@ -41,3 +41,14 @@ fetch('translate.json')
         document.body.classList.remove('dark-theme');
     }
 });
+const audio = document.querySelector('audio');
+let isPlaying = false;
+
+function toggleAudio() {
+  if (isPlaying) {
+    audio.pause();
+  } else {
+    audio.play();
+  }
+  isPlaying = !isPlaying;
+}
