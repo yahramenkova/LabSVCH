@@ -4,23 +4,26 @@
   <meta charset="UTF-8">
   <title>Beautyness</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">  
+</body>
   </head>
   <body>
     <header>  
     <div class="blockLogo"><img class="logo" src="pictures/logo.svg" alt="logo">
     <div class="blockPhone"> <img class="phone" src="pictures/phone.svg" alt="phone">
     <img class="number" src="pictures/number.svg" alt="phonenumber"></div>
+  
+    </div>
    </div> 
     <div class="blockNav"> 
      <nav>
-        <a class="linkhome" href="#home">Home</a>
+        <a class="linkhome" href="#home" data-i18n="nav-home">Home</a>
         <div class="link">
-        <a href="#about">About</a>
-        <a href="#pages">Pages</a> 
+            <a href="#about" data-i18n="nav-about">About</a>
+            <a href="#pages" data-i18n="nav-pages">Pages</a> 
         </div>
     </nav> 
-    <h2>Contact Us</h2>
+    <h2 data-i18n="contact">Contact Us</h2>
     <div class="linkt">    
          <img class="fc" src="pictures/facebook.svg" alt="f">
          <img class="tw" src="pictures/tw.svg" alt="tw">
@@ -40,133 +43,134 @@
         <button class="button-tr" id="Russian">ru</button>
         <div class="block1">
             <div class="textblock1">
-            <img class="imgMass" src="pictures/mass.svg" alt="massage">
-            <p>Welcome to Beautyness!!!</p>
-            <h1>Bring The well being & beauty naturally!!!</h1>
-            <h2>Your body does a lot for you, and your caring therapist can help you return the favor in a way that benefits both your physical and mental wellness.</h2>
-     <button class="button2"> 
-     <span class="button2text">Make a reservation</span>
-     </button> 
+                <img class="imgMass" src="pictures/mass.svg" alt="massage">
+                <p data-i18n="welcome">Welcome to Beautyness!!!</p>
+                <h1 data-i18n="bring-beauty">Bring The well being & beauty naturally!!!</h1>
+                <h2 data-i18n="your-body">Your body does a lot for you, and your caring therapist can help you return the favor in a way that benefits both your physical and mental wellness.</h2>
+            <button class="button2" id="button2" >
+            <span class="button2text" data-i18n="reservation">Make a reservation</span>
+            </button> 
             </div>
             <div class="border"></div>
-            <img class="img1" src="pictures/img1.png" alt="Фото">               
+            <img class="img1" id="img1" src="pictures/img1.png" alt="Фото">               
         </div>
     </div>
     <div class="block2">
         <div class="block2_1">
             <img class="img2" src="pictures/img2.png" alt="Фото">
-            <h1>Spa & Massage</h1>
-            <h2>Your wellness goals and the areas of preference, then unwind with a customized massage experience.</h2>
-            <button class="button5"><span>Read more</span></button>
+            <h1 data-i18n="spa">Spa & Massage</h1>
+            <h2 data-i18n="wellness">Your wellness goals and the areas of preference, then unwind with a customized massage experience.</h2>
+            <button class="button5" ><span data-i18n="read">Read more</span></button>
         </div>
      <div class="block2_2">
      <img class="img2" src="pictures/img3.png" alt="Фото">
-     <h1>Hair & Beauty</h1>
-     <h2>Combining skin-type-specific cleansing & toning, exfoliation, deep-pore cleansing extractions customized treatment.</h2>
-     <button class="button5"><span>Read more</span></button>
+     <h1 data-i18n="hair">Hair & Beauty</h1>
+     <h2 data-i18n="combining">Combining skin-type-specific cleansing & toning, exfoliation, deep-pore cleansing extractions customized treatment.</h2>
+     <button class="button5"><span data-i18n="read">Read more</span></button>
      </div>
         <div class="block2_3">
             <img class="img2" src="pictures/img4.png" alt="Фото">
-            <h1>Body Treatments</h1>
-            <h2>Offers therapeutic benefits such as relief of muscle tension and increased circulation to the areas worked.</h2>
-            <button class="button5"><span>Read more</span></button>
+            <h1 data-i18n="treatment">Body Treatments</h1>
+            <h2 data-i18n="offers">Offers therapeutic benefits such as relief of muscle tension and increased circulation to the areas worked.</h2>
+            <button class="button5"><span data-i18n="read">Read more</span></button>
         </div>
        </div>
        </section>
        <div class="rectangle2">
         <div class="block3">  
         <div class="blockTextImage"> <div class="block3_1">
-        <h2>Take Your Care</h2>
-        <h1>Elevate Your Lifestyle by Bring Balance and Well Being Into Your Life</h1>
-        <p>Designed to allow you to unwind and feel confident that you’re in good, caring hands. Our first priority is cleanliness. We have a full-time staff whose job is to ensure that the environment at Beautyness remains.</p>
+        <h2 data-i18n="care">Take Your Care</h2>
+        <h1 data-i18n="elevate">Elevate Your Lifestyle by Bring Balance and Well Being Into Your Life</h1>
+        <p data-i18n="designed">Designed to allow you to unwind and feel confident that you’re in good, caring hands. Our first priority is cleanliness. We have a full-time staff whose job is to ensure that the environment at Beautyness remains.</p>
       </div>
       <div class="block3_2">
-        <img class="img4" src="pictures/el1.png" alt="Фото">
-        <img class="img4" src="pictures/el2.png" alt="Фото">
+          <img class="img4" src="pictures/el1.png" alt="Фото">
+          <img class="img4" src="pictures/el2.png" alt="Фото">
         <img class="img4" src="pictures/el3.png" alt="Фото">
       </div></div>
         <img class="img8" src="pictures/block3-2.png" alt="Фото">
       </div> <img class="img3" src="pictures/block3-1.png" alt="Фото">
+      
        </div>
    <section id="about">
         <div class="containerPriceServices">
             <div class="containerTextServices">
-            <h2>Our Services</h2>
-            <h1>Creative excellence and the</h1>
-            <h1>unparalleled hospitality</h1>
+                <h2 data-i18n="services">Our Services</h2>
+                <h1 data-i18n="creative">Creative excellence and the</h1>
+                <h1 data-i18n="unparalleled">unparalleled hospitality</h1>
             </div>
         <div class="containerServices1">
         <img class="img5" src="pictures/service1.png" alt="Фото">
         <div class="textblockServices">
-        <img class="textPrice" src="pictures/price1.png" alt="Фото">
-        <img class="textPrice2" src="pictures/price2.png" alt="Фото">
-        <img class="textPrice3" src="pictures/price3.png" alt="Фото">
-        <img class="textPrice4" src="pictures/price4.png" alt="Фото">
-        <button class="button6"><span>GET AN APPOINTMENT</span></button>
+         <img class="textPrice" src="pictures/price1.png" alt="Фото">
+          <img class="textPrice2" src="pictures/price2.png" alt="Фото">
+           <img class="textPrice3" src="pictures/price3.png" alt="Фото">
+           <img class="textPrice4" src="pictures/price4.png" alt="Фото">
+           <button class="button6"><span data-i18n="appointment">GET AN APPOINTMENT</span></button>
         </div>
         </div>
         <div class="containerServices2">
         <div class="textblockServices2">
-        <img class="textPrice5" src="pictures/price5.png" alt="Фото">
-        <img class="textPrice6" src="pictures/price6.png" alt="Фото">
-        <img class="textPrice7" src="pictures/price7.png" alt="Фото">
-        <img class="textPrice8" src="pictures/price8.png" alt="Фото">
-        <button class="button6"><span>GET AN APPOINTMENT</span></button>
+         <img class="textPrice5" src="pictures/price5.png" alt="Фото">
+          <img class="textPrice6" src="pictures/price6.png" alt="Фото">
+           <img class="textPrice7" src="pictures/price7.png" alt="Фото">
+           <img class="textPrice8" src="pictures/price8.png" alt="Фото">
+           <button class="button6"><span data-i18n="appointment">GET AN APPOINTMENT</span></button>
         </div>
            <img class="img6" src="pictures/service2.png" alt="Фото">
         </div>
         </div>
     <div class="rectangle3">
-        <div class="testimonialsblock"> <p>Testimonials</p>
-            <h1>What our Customers says...</h1>
+        <div class="testimonialsblock"> <p data-i18n="testimonials">Testimonials</p>
+            <h1 data-i18n="customers">What our Customers says...</h1>
         </div>
         <div class="blockcomments">
         <div class="commentsRectangle">  
-        <h2>“ Made an appointment with Beautyness and it was the best experience in a salon I have ever had. They went above and beyond to make sure I got what I wanted, & patiently explained her process “</h2>
+              <h2 data-i18n="made">“ Made an appointment with Beautyness and it was the best experience in a salon I have ever had. They went above and beyond to make sure I got what I wanted, & patiently explained her process “</h2>
             <div class="commentsRectangle1">
                <div class="comment"><img class="imgAva1" src="pictures/avatar1.png" alt="Фото">
                <div class="textCom"><img class="imgStars" src="pictures/stars.svg" alt="stars"> 
-               <h1>James Williams</h1> <h3>United States</h3> </div></div> 
+               <h1 data-i18n="jm">James Williams</h1> <h3 data-i18n="states">United States</h3> </div></div> 
                <img class="imgQuote" src="pictures/quote.svg" alt="Фото"></div> </div> 
-            <div class="commentsRectangle2"> <h2>“ I've been going to Beautyness they are always goes above and beyond my expectations and leaves my hair looking and feeling fantastic and looking exactly as I hoped, if not better “</h2> <div class="commentsRectangle3">
+            <div class="commentsRectangle2"> <h2 data-i18n="comment1">“ I've been going to Beautyness they are always goes above and beyond my expectations and leaves my hair looking and feeling fantastic and looking exactly as I hoped, if not better “</h2> <div class="commentsRectangle3">
                <div class="comment"><img class="imgAva1" src="pictures/avatar2.png" alt="Фото">
                <div class="textCom"><img class="imgStars" src="pictures/stars.svg" alt="stars"> 
-               <h1>Carolyn James</h1> <h3>United Kingdom</h3> </div></div> 
+               <h1 data-i18n="name">Carolyn James</h1> <h3 data-i18n="states">United Kingdom</h3> </div></div> 
                <img class="imgQuote1" src="pictures/quote.svg" alt="Фото"></div> </div> </div> 
             </div>         
             </section>
             <section class="Benefit">
-            <div class="textBlockBenefits"> <h2>Our Awesome Benefits</h2>
-            <h1>What you’ll get from Us</h1>
-                </div>
-                <div class="blockBenefits"> 
+                <div class="textBlockBenefits"> <h2 data-i18n="benefits">Our Awesome Benefits</h2>
+                    <h1 data-i18n="benefit-1">What you’ll get from Us</h1>
+                 </div>
+                 <div class="blockBenefits"> 
                 <div class="blockBenefits1 blockBenefits_1"> <img class="img7" src="pictures/benefit.png" alt="Фото">
-                <h1>Built with you in mind</h1> <p>We know how important it is to maintain strong relationships with clients.</p> </div>
+                <h1 data-i18n="benefit-2">Built with you in mind</h1> <p data-i18n="benefit-2_1">We know how important it is to maintain strong relationships with clients.</p> </div>
                 <div class="blockBenefits1 blockBenefits_2"><img class="img7" src="pictures/benefit.png" alt="Фото">
-                <h1>The Perfect Salon Services </h1>  <p>Talented, educated, and fashion-forward artists meet the unique needs of client.</p></div>
+                <h1 data-i18n="benefit-3">The Perfect Salon Services </h1>  <p data-i18n="benefit-3_1">Talented, educated, and fashion-forward artists meet the unique needs of client.</p></div>
                 <div class="blockBenefits1 blockBenefits_3">
                 <img class="img7" src="pictures/benefit.png" alt="Фото">
-                 <h1>Skin Deep Experiences</h1> 
-                 <p>Appropriate for all skin types, sun damage, fine lines and wrinkles, acne, and oily.</p> </div>
+                 <h1 data-i18n="benefit-4">Skin Deep Experiences</h1> 
+                 <p data-i18n="benefit-4_1">Appropriate for all skin types, sun damage, fine lines and wrinkles, acne, and oily.</p> </div>
                 <div class="blockBenefits1 blockBenefits_4">
                 <img class="img7" src="pictures/benefit.png" alt="Фото">
-                <h1>Essential Spa Pedicure</h1> 
-                <p>Indulge in a soothing foot bath along with a callous smoothing exfoliating scrub.</p></div>
+                <h1 data-i18n="benefit-5">Essential Spa Pedicure</h1> 
+                <p data-i18n="benefit-5_1">Indulge in a soothing foot bath along with a callous smoothing exfoliating scrub.</p></div>
                 <div class="blockBenefits1 blockBenefits_5">
                 <img class="img7" src="pictures/benefit.png" alt="Фото">
-                <h1>Skilled Spa Services</h1> 
-                <p>Our skilled estheticians offer an array of refreshing treatments.</p></div>
+                <h1 data-i18n="benefit-6">Skilled Spa Services</h1> 
+                <p data-i18n="benefit-6_1">Our skilled estheticians offer an array of refreshing treatments.</p></div>
                 <div class="blockBenefits1 blockBenefits_6"><img class="img7" src="pictures/benefit.png" alt="Фото">
-                <h1>Perfect & Natural Products</h1> 
-                <p>We offer the very best in luxury beauty products for both hair and skin.</div>
+                <h1 data-i18n="benefit-7">Perfect & Natural Products</h1> 
+                <p data-i18n="benefit-7_1">We offer the very best in luxury beauty products for both hair and skin.</div>
                 </div>
                 </section>
  <section class="Discount">
-    <div class="blockDiscount"> <div class="blockDiscounttext"> <h2>Flat Discount</h2> 
-    <h1>Claim upto 50% offer on the most popular services...</h1> 
-    <p>Our Retreat is not meant to be an occasional treat, but rather a part of your routine that restores balance to your daily life.</p> 
+    <div class="blockDiscount"> <div class="blockDiscounttext"> <h2 data-i18n="discount">Flat Discount</h2> 
+    <h1 data-i18n="claim">Claim upto 50% offer on the most popular services...</h1> 
+    <p data-i18n="retreat">Our Retreat is not meant to be an occasional treat, but rather a part of your routine that restores balance to your daily life.</p> 
     <div class="blockDiscountButton"><img class="img10" src="pictures/mail.png" alt="Фото">  
-    <div class="DiscountRec"><h2>- Get Flat -</h2> <h3>50%</h3> <h4>Discount</h4> </div></div></div> 
+    <div class="DiscountRec"><h2 data-i18n="flat">- Get Flat -</h2> <h3>50%</h3> <h4 data-i18n="discount-1">Discount</h4> </div></div></div> 
             <div class="blockreg"> 
             <div class="buttonReg"><button class="button7"><img class="imgReg" src="pictures/reg1.svg" alt="Фото"> </button>
             <button class="button7"><img class="imgReg" src="pictures/reg2.svg" alt="Фото"></button>
@@ -180,31 +184,31 @@
         </section>
         <section class="OurBlog">
         <div class="textBlockBlog">
-        <h2>Our Blog</h2><h1>Latest Updates</h1></div>
+        <h2 data-i18n="our-blog">Our Blog</h2><h1 data-i18n="updates">Latest Updates</h1></div>
         <div class="blockBlog"> 
         <div class="subblockBlog"><img class="img9" src="pictures/blog1.png" alt="Фото"><div class="blockrec">
-        <div class="textSubBlockBlog"><h2>September 30, 2021</h2> <div class="minrec"></div>
-         <h2>Peter Bergson</h2> </div>  
-        <h1>How to make the make-up stay last</h1>
-        <p>Therapeutic aromatherapy can help bring balance both mentally, physically, and different blends.</p>
+        <div class="textSubBlockBlog"><h2 data-i18n="september">September 30, 2021</h2> <div class="minrec"></div>
+         <h2 data-i18n="pb">Peter Bergson</h2> </div>  
+        <h1 data-i18n="make-up">How to make the make-up stay last</h1>
+        <p data-i18n="aromatherapy">Therapeutic aromatherapy can help bring balance both mentally, physically, and different blends.</p>
         </div></div>
         <div class="subblockBlog"><img class="img9" src="pictures/blog2.png" alt="Фото"><div class="blockrec">
-        <div class="textSubBlockBlog"><h2>September 30, 2021</h2> <div class="minrec"></div>
-         <h2>John Walker</h2>
+        <div class="textSubBlockBlog"><h2 data-i18n="september">September 30, 2021</h2> <div class="minrec"></div>
+         <h2 data-i18n="jw">John Walker</h2>
         </div> 
-        <h1>Tips to improve your body via cleansing</h1> 
-        <p>Whether you’re looking to stress, boost energy, improve sleep, clear sinuses, or relieve a headache.</p></div></div>
+        <h1 data-i18n="tips">Tips to improve your body via cleansing</h1> 
+        <p data-i18n="whether">Whether you’re looking to stress, boost energy, improve sleep, clear sinuses, or relieve a headache.</p></div></div>
         <div class="subblockBlog"><img class="img9" src="pictures/blog3.png" alt="Фото"><div class="blockrec">
         <div class="textSubBlockBlog">
-        <h2>September 30, 2021</h2>
+        <h2 data-i18n="september">September 30, 2021</h2>
         <div class="minrec"></div> 
-        <h2>Christina John</h2>
-        </div>  <h1>Experience the beauty at our beauty spa</h1>
-        <p>We’ve created a range of proprietary aromatherapy blends to enhance your massage or skin therapy.</p></div></div>
+        <h2 data-i18n="cj">Christina John</h2>
+        </div>  <h1 data-i18n="experience">Experience the beauty at our beauty spa</h1>
+        <p data-i18n="therapy">We’ve created a range of proprietary aromatherapy blends to enhance your massage or skin therapy.</p></div></div>
         </div>
-        <button class="buttonBlog"><span>view more stories</span></button>
+        <button class="buttonBlog"><span data-i18n="view">view more stories</span></button>
         </section>
-        <section id="pages">
+<section id="pages">
             <div class="rectangle5"> 
             <div class="blockEndText"><img class="logo2" src="pictures/logo2.svg" alt="logo" >
             <div class="endlink">
@@ -215,31 +219,31 @@
             </div></div>
             <div class="line"></div>
             <div class="textEnd">  
-            <div class="subblockEnd1" ><h1>Explore</h1>
-            <div class="subblockEnd1_1"><p>Home </p> 
-            <p>About Us</p>
-            <p>Services</p>
-            <p>Articles</p>
-            <p>Contact Us</p>
+            <div class="subblockEnd1" ><h1 data-i18n="explore">Explore</h1>
+            <div class="subblockEnd1_1"><p data-i18n="home">Home </p> 
+            <p data-i18n="about">About Us</p>
+            <p data-i18n="services-2">Services</p>
+            <p data-i18n="articles">Articles</p>
+            <p data-i18n="contact">Contact Us</p>
             </div>
             </div>
-            <div class="subblockEnd2" ><h1>Utility Pages</h1>
-            <div class="subblockEnd2_1"><p>Style Guide</p>
-            <p>404 Not Found</p>
-            <p>Password Protected</p>
-            <p>Licenses</p>
-            <p>Changelog</p>
+            <div class="subblockEnd2" ><h1 data-i18n="utility">Utility Pages</h1>
+            <div class="subblockEnd2_1"><p data-i18n="guide">Style Guide</p>
+            <p data-i18n="404">404 Not Found</p>
+            <p data-i18n="password">Password Protected</p>
+            <p data-i18n="licenses">Licenses</p>
+            <p data-i18n="changelog">Changelog</p>
             </div>
             </div>
-            <div class="subblockEnd3" ><h1>Keep in Touch</h1>
-            <div class="subblockEnd3_1"> <div class="subblockEnd3_2"><p>Address :</p> <p>24A Kingston St, Los Vegas NC 28202, USA.</p> </div>
-            <div class="subblockEnd3_3"><p>Mail :</p><p>support@doctors.com</p></div>
-            <div class="subblockEnd3_4"><p>Phone :</p><p>(+22) 123 - 4567 - 900</p></div> </div>
+            <div class="subblockEnd3" ><h1 data-i18n="touch">Keep in Touch</h1>
+                <div class="subblockEnd3_1"> <div class="subblockEnd3_2"><p data-i18n="address">Address :</p> <p data-i18n="address-2">24A Kingston St, Los Vegas NC 28202, USA.</p> </div>
+            <div class="subblockEnd3_3"><p data-i18n="mail">Mail :</p><p data-i18n="mail-2">support@doctors.com</p></div>
+            <div class="subblockEnd3_4"><p data-i18n="phone">Phone :</p><p data-i18n="phone-2">(+22) 123 - 4567 - 900</p></div> </div>
             </div>
-            <div class="subblockEnd4" ><h1>Working Hours</h1>
-             <div class="subblockEnd4_1"> <p>Mon to Fri: 7am - 6pm</p>
-            <p>Sat: 9am - 7pm</p>
-            <p>Sun: 9am - 6pm</p>
+            <div class="subblockEnd4" ><h1 data-i18n="hours">Working Hours</h1>
+            <div class="subblockEnd4_1"> <p data-i18n="schedule">Mon to Fri: 7am - 6pm</p>
+            <p data-i18n="schedule2">Sat: 9am - 7pm</p>
+            <p data-i18n="schedule3">Sun: 9am - 6pm</p>
             </div>
             </div>
             </div>
@@ -247,7 +251,7 @@
             </section>
        </main>
        <footer>
-        <div class="blockFooter"> <span>&copy; Drafted by VictorFlow - Powered by Webflow.</span></div>  
+        <div class="blockFooter"> <span data-i18n="footer">&copy; Drafted by VictorFlow - Powered by Webflow.</span></div>  
        </footer>
        <script src="function.js"></script>
   </body>
